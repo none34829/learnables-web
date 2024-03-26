@@ -17,27 +17,27 @@ export const exploreWorlds = [
   {
     id: "world-1",
     imgUrl: Planet_1,
-    title: "The Hogwarts",
+    title: "Mr. XYZ",
   },
   {
     id: "world-2",
     imgUrl: Planet_2,
-    title: "The Upside Down",
+    title: "Ms. DEF",
   },
   {
     id: "world-3",
     imgUrl: Planet_3,
-    title: "Kadirojo Permai",
+    title: "Mr. PQR",
   },
   {
     id: "world-4",
     imgUrl: Planet_4,
-    title: "Paradise Island",
+    title: "Ms. LMN",
   },
   {
     id: "world-5",
     imgUrl: Planet_5,
-    title: "Hawkins Labs",
+    title: "Mr. IDK",
   },
 ];
 
@@ -65,19 +65,19 @@ export const newFeatures = [
 export const insights = [
   {
     imgUrl: Planet_6,
-    title: "The launch of the Metaverse makes Elon musk ketar-ketir",
+    title: "Component 1",
     subtitle:
       "Magna etiam tempor orci eu lobortis elementum nibh tellus molestie. Diam maecenas sed enim ut sem viverra alique.",
   },
   {
     imgUrl: Planet_7,
-    title: "7 tips to easily master the madness of the Metaverse",
+    title: "Component 2",
     subtitle:
       "Vitae congue eu consequat ac felis donec. Et magnis dis parturient montes nascetur ridiculus mus. Convallis tellus id interdum",
   },
   {
     imgUrl: Planet_8,
-    title: "With one platform you can explore the whole world virtually",
+    title: "Component 3",
     subtitle:
       "Quam quisque id diam vel quam elementum. Viverra nam libero justo laoreet sit amet cursus sit. Mauris in aliquam sem",
   },

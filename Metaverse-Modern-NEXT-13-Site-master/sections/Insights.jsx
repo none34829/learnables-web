@@ -15,7 +15,7 @@ const Insights = () => (
       viewport={{ once: false, amount: 0.25 }}
       className={`${styles.innerWidth} mx-auto flex flex-col `}
     >
-      <TypingText title="| Insight" textStyles="text-center" />
+      <TypingText title="Components" textStyles="text-center" />
       <TitleText
         title={<>Components of a Learnables Tablet</>}
         textStyles="text-center"
