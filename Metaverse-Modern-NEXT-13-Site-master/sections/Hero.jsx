@@ -26,7 +26,7 @@ const Hero = () => (
           className="flex flex-row justify-center items-center"
         >
           <h1 className={styles.heroHeading}>Ta</h1>
-          <div className={styles.heroDText} />
+          <div className={styles.heroBText} />
           <h1 className={styles.heroHeading}>Lets</h1>
         </motion.div>
       </div>
