@@ -65,21 +65,21 @@ export const newFeatures = [
 export const insights = [
   {
     imgUrl: Planet_6,
-    title: "Component 1",
+    title: "Raspberry pi 4B+",
     subtitle:
-      "Magna etiam tempor orci eu lobortis elementum nibh tellus molestie. Diam maecenas sed enim ut sem viverra alique.",
+      "The Raspberry pi 4B+ is a powerful computer for embedded and mobile devices.",
   },
   {
     imgUrl: Planet_7,
-    title: "Component 2",
+    title: "Lithium Ion Battery",
     subtitle:
-      "Vitae congue eu consequat ac felis donec. Et magnis dis parturient montes nascetur ridiculus mus. Convallis tellus id interdum",
+      "With 10,000 MaH of energy this battery is lightweight and can power the tablet for 8 consecutive hours",
   },
   {
     imgUrl: Planet_8,
-    title: "Component 3",
+    title: "10 Inch Touch Screen",
     subtitle:
-      "Quam quisque id diam vel quam elementum. Viverra nam libero justo laoreet sit amet cursus sit. Mauris in aliquam sem",
+      "A 10 inch high definition capacitive touch screen acting as the interface tablet.",
   },
 ];
 
