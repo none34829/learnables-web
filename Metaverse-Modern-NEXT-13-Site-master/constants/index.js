@@ -27,7 +27,7 @@ export const exploreWorlds = [
   {
     id: "Monis",
     imgUrl: Monis,
-    title: "Monis Rahman - Founder : dukan, rozee, finja - Stanford alumni",
+    title: "Monis Rahman - CEO of Dukan.pk - Stanford alumni",
   },
   {
     id: "world-4",
