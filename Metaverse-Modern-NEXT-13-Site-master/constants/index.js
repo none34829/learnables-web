@@ -67,7 +67,7 @@ export const insights = [
     imgUrl: Planet_6,
     title: "Raspberry pi 4B+",
     subtitle:
-      "The Raspberry pi 4B+ is a powerful computer for embedded and mobile devices.",
+      "The Raspberry pi 4B+ is a powerful computer for embedded and mobile devices. With 4GB Ram, Quad-core CPU and a powerful cortex GPU the raspberry pi is an excellent choice to serve as the powerhouse for our tablet.",
   },
   {
     imgUrl: Planet_7,
