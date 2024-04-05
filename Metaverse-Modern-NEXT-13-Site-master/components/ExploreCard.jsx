@@ -38,7 +38,9 @@ const ExploreCard = ({ id, imgUrl, title, index, active, handleClick }) => (
           />
         </div>
         <p className="font-normal text-[16px] leading-[20px] text-white uppercase ">
-          Learnables
+        The prototype looks really good. Omer has previously gotten his startup incubated at
+        sparktank. I look forward to working with him again and making learnables part of the
+        sparktank family."
         </p>
         <h2 className="mt-[24px] font-semibold sm:text-[32px] text-[24px] text-white ">
           {title}
