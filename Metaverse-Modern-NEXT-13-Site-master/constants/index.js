@@ -1,6 +1,6 @@
 import Syed from "../public/aliaqa.png";
-import Planet_2 from "../public/planet-02.png";
-import Planet_3 from "../public/planet-03.png";
+import Kasim from "../public/kasim.png";
+import Monis from "../public/monish.png";
 import Planet_4 from "../public/planet-04.png";
 import Planet_5 from "../public/planet-05.png";
 import rpi from "../public/rpi.png";
@@ -20,13 +20,13 @@ export const exploreWorlds = [
     title: "Syed Ali Aqa - Head of SparkTank",
   },
   {
-    id: "world-2",
-    imgUrl: Planet_2,
+    id: "Kasim",
+    imgUrl: Kasim,
     title: "Kasim Kasuri - CEO of Beaconhouse",
   },
   {
-    id: "world-3",
-    imgUrl: Planet_3,
+    id: "Monis",
+    imgUrl: Monis,
     title: "Monis Rahman - Founder : dukan, rozee, finja - Stanford alumni",
   },
   {
