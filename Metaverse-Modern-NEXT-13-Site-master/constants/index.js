@@ -17,17 +17,17 @@ export const exploreWorlds = [
   {
     id: "world-1",
     imgUrl: Planet_1,
-    title: "Mr. XYZ",
+    title: "Syed Ali Aqa - Head of SparkTank",
   },
   {
     id: "world-2",
     imgUrl: Planet_2,
-    title: "Ms. DEF",
+    title: "Kasim Kasuri - CEO of Beaconhouse",
   },
   {
     id: "world-3",
     imgUrl: Planet_3,
-    title: "Mr. PQR",
+    title: "Monis Rahman - Founder : dukan, rozee, finja - Stanford alumni",
   },
   {
     id: "world-4",
