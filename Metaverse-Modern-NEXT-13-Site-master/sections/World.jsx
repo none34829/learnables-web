@@ -16,12 +16,13 @@ const World = () => (
       viewport={{ once: false, amount: 0.25 }}
       className={`${styles.innerWidth} mx-auto flex flex-col`}
     >
-      <TypingText title="| People On The World " textStyles="text-center" />
+      <TypingText title="The Learnables Community" textStyles="text-center" />
       <TitleText
         title={
           <>
-            Track friends around you and invite them to play together in the
-            same world
+            An online community of driven high schoolers which will be given free and exclusive access
+            to tuition from distinction holders, counselling sessions for college admissions, free
+            resources and tips on how to prepare for the SAT/ACT/AP exams, etc.
           </>
         }
         textStyles="text-center"
