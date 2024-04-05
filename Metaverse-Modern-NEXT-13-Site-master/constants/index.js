@@ -1,4 +1,4 @@
-import Planet_1 from "../public/planet-01.png";
+import Syed from "../public/aliaqa.png";
 import Planet_2 from "../public/planet-02.png";
 import Planet_3 from "../public/planet-03.png";
 import Planet_4 from "../public/planet-04.png";
@@ -15,8 +15,8 @@ import facebook from "../public/facebook.svg";
 
 export const exploreWorlds = [
   {
-    id: "world-1",
-    imgUrl: Planet_1,
+    id: "Syed",
+    imgUrl: Syed,
     title: "Syed Ali Aqa - Head of SparkTank",
   },
   {
