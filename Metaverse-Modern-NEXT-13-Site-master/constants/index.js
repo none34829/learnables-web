@@ -4,8 +4,8 @@ import Planet_3 from "../public/planet-03.png";
 import Planet_4 from "../public/planet-04.png";
 import Planet_5 from "../public/planet-05.png";
 import rpi from "../public/rpi.png";
-import Planet_7 from "../public/planet-07.png";
-import Planet_8 from "../public/planet-08.png";
+import screen from "../public/screen.png";
+import battery from "../public/battery.png";
 import vrpano from "../public/vrpano.svg";
 import headset from "../public/headset.svg";
 import twitter from "../public/twitter.svg";
@@ -70,13 +70,13 @@ export const insights = [
       "The Raspberry pi 4B+ is a powerful computer for embedded and mobile devices. With 4GB Ram, Quad-core CPU and a powerful cortex GPU the raspberry pi is an excellent choice to serve as the powerhouse for our tablet.",
   },
   {
-    imgUrl: Planet_7,
+    imgUrl: battery,
     title: "Lithium Ion Battery",
     subtitle:
       "With 10,000 MaH of energy this battery is lightweight and can power the tablet for 8 consecutive hours",
   },
   {
-    imgUrl: Planet_8,
+    imgUrl: screen,
     title: "10 Inch Touch Screen",
     subtitle:
       "A 10 inch high definition capacitive touch screen acting as the interface tablet.",
