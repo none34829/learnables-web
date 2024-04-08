@@ -3,62 +3,62 @@
 import Image from "next/image";
 import { motion } from "framer-motion";
 import styles from "../styles";
-import { slideIn, staggerContainer, textVariant } from "../utils/motion";
+import planet9 from "../public/planet-09.png";
 import stamp from "../public/stamp.png";
-import cover from "../public/cover.png";
+import { fadeIn, staggerContainer, zoomIn } from "../utils/motion";
 
-const Hero = () => (
-  <section className={`${styles.yPaddings} sm:pl-16 pl-6`}>
-    {/* this is a container div in which we can animate children elements */}
+const Feedback = () => (
+  <section className={`${styles.paddings} relative z-10`}>
     <motion.div
       variants={staggerContainer}
       initial="hidden"
       whileInView="show"
       viewport={{ once: false, amount: 0.25 }}
-      className={`${styles.innerWidth} mx-auto flex flex-col`}
+      className={`${styles.innerWidth} mx-auto lg:flex-row flex flex-col gap-6`}
     >
-      <div className="flex justify-center items-center flex-col relative z-10">
-        <motion.h1 variants={textVariant(1.1)} className={styles.heroHeading}>
-          Learnables
-        </motion.h1>
-        <motion.div
-          variants={textVariant(1.2)}
-          className="flex flex-row justify-center items-center"
-        >
-          <h1 className={styles.heroHeading}>Ta</h1>
-          
-          <h1 className={styles.heroHeading}>Blets</h1>
-        </motion.div>
-      </div>
-
-      {/* NOTE "-mt-[20px]" means "minus 20px margin top" */}
       <motion.div
-        variants={slideIn("right", "tween", 0.2, 1)}
-        className="relative w-full md:-mt-[20px] -mt-[12px] "
+        variants={fadeIn("right", "tween", 0.2, 1)}
+        className="flex-[0.5] lg:max-w-[370px] flex justify-end flex-col gradient-05 sm:p-8 p-4 rounded-[32px] border-[1px] border-[#6a6a6a] relative "
       >
-        <div className="absolute w-full h-[300px] hero-gradient rounded-tl-[140px] z-10 -top-[30px]" />
+        <div className="feedback-gradient" />
+
+        <div>
+          <h4 className="font-bold sm:text-[32px] text-[26px] sm:leading-[40.32px] leading-[36.32px] text-white">
+            ABC
+          </h4>
+          <p className="mt-[8px] font-normal sm:text-[18px] text-[12px] sm:leading-[22.68px] leading-[16.68px] text-white">
+            Founder
+          </p>
+        </div>
+        <p className="mt-[24px] font-normal sm:text-[24px] text-[18px] sm:leading-[45.6px] leading-[39.6px] text-white">
+          “Quote”
+        </p>
+      </motion.div>
+
+      <motion.div
+        variants={fadeIn("left", "tween", 0.2, 1)}
+        className="relative flex-1 flex justify-center items-center"
+      >
         <Image
-          src={cover}
-          alt="cover"
+          src={planet9}
+          alt="planet-09"
           placeholder="blur"
-          priority
-          className="w-full sm:h-[500px] h-[350px] object-cover rounded-tl-[140px] z-10 relative "
+          className="w-full lg:h-[610px] h-auto min-h-[210px] object-cover rounded-[40px]"
         />
 
-        <a href="#explore">
-          <div className="w-full flex justify-end sm:-mt-[70px] -mt-[50px] pr-[40px] relative z-10 ">
-            <Image
-              src={stamp}
-              alt="stamp"
-              placeholder="blur"
-              priority
-              className="sm:w-[155px] w-[100px] sm:h-[155px] h-[100px] object-contain "
-            />
-          </div>
-        </a>
+        <motion.div
+          variants={zoomIn(0.4, 1)}
+          className="lg:block hidden absolute -left-[10%] top-[3%]"
+        >
+          <Image
+            src={stamp}
+            alt="stamp"
+            className="w-[155px] h-[155px] object-contain"
+          />
+        </motion.div>
       </motion.div>
     </motion.div>
   </section>
 );
 
-export default Hero;
+export default Feedback;
