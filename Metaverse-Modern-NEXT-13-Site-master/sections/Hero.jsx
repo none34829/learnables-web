@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import styles from "../styles";
 import { slideIn, staggerContainer, textVariant } from "../utils/motion";
 import stamp from "../public/stamp.png";
-import cover from "../public/cover.png";
+import cover from "../public/learnables-dark.png";
 
 const Hero = () => (
   <section className={`${styles.yPaddings} sm:pl-16 pl-6`}>
