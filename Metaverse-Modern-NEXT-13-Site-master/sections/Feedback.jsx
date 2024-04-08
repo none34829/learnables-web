@@ -4,7 +4,6 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import styles from "../styles";
 import planet9 from "../public/planet-09.png";
-import stamp from "../public/stamp.png";
 import { fadeIn, staggerContainer, zoomIn } from "../utils/motion";
 
 const Feedback = () => (

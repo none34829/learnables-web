@@ -4,7 +4,6 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import styles from "../styles";
 import { slideIn, staggerContainer, textVariant } from "../utils/motion";
-import stamp from "../public/stamp.png";
 import cover from "../public/learnables-dark.png";
 
 const Hero = () => (
@@ -47,11 +46,6 @@ const Hero = () => (
 
         <a href="#explore">
           <div className="w-full flex justify-end sm:-mt-[70px] -mt-[50px] pr-[40px] relative z-10 ">
-            <Image
-              placeholder="blur"
-              priority
-              className="sm:w-[155px] w-[100px] sm:h-[155px] h-[100px] object-contain "
-            />
           </div>
         </a>
       </motion.div>
