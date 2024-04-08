@@ -15,11 +15,6 @@ import facebook from "../public/facebook.svg";
 
 export const exploreWorlds = [
   {
-    id: "Syed",
-    imgUrl: Syed,
-    title: "Syed Ali Aqa - Head of SparkTank",
-  },
-  {
     id: "Kasim",
     imgUrl: Kasim,
     title: "Kasim Kasuri - CEO of Beaconhouse",
@@ -28,16 +23,6 @@ export const exploreWorlds = [
     id: "Monis",
     imgUrl: Monis,
     title: "Monis Rahman - CEO of Dukan.pk - Stanford alumni",
-  },
-  {
-    id: "world-4",
-    imgUrl: Planet_4,
-    title: "Ms. LMN",
-  },
-  {
-    id: "world-5",
-    imgUrl: Planet_5,
-    title: "Mr. IDK",
   },
 ];
 
