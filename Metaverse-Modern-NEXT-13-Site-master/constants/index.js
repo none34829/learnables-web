@@ -27,12 +27,12 @@ export const exploreWorlds = [
 ];
 
 export const startingFeatures = [
-  "Step 1",
-  "Step 2",
-  "Step 3",
-  "Step 4",
-  "Step 5",
-  "Step 6"
+  "Cheap and Affordable",
+  "Learnables Community, a community of driven high schoolers with exclusive access to various tuitions, counselling sessions etc",
+  "Exclusive educational apps, courses and games only found on the Learnables tablet",
+  "Custom OS made specifically for purpose of education",
+  "Only educational tablet currently in the market",
+  "Adaptive AI Tutor that can adjust to the difficulty level of student"
 ];
 
 export const newFeatures = [
