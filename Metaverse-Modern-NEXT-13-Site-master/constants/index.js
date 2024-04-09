@@ -38,9 +38,19 @@ export const startingFeatures = [
 export const newFeatures = [
   {
     imgUrl: vrpano,
-    title: "A new world",
-    subtitle:
-      "we have the latest update with new world for you to try never mind",
+    title: "High Quality Exclusive Content",
+    subtitle: `
+      - Free access to paid certifications
+      - Custom tailor-made courses
+      - Content from learnables community
+      - Interactive gamified educational content
+      - Multi-lingual support (translated videos from Khan Academy)
+      - E-books
+      - A unique learning experience for a child that is interactive and fun
+      - Collaborations with organizations such as the Pakistan Skills Development Fund
+      - Live Virtual Classes
+      - Opportunities for Educators including lesson plans, teaching guides, assessment tools, and online courses
+    `, 
   },
   {
     imgUrl: headset,
