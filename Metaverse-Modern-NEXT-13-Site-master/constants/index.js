@@ -39,18 +39,16 @@ export const newFeatures = [
   {
     imgUrl: vrpano,
     title: "High Quality Exclusive Content",
-    subtitle: [
-      "- Free access to paid certifications",
-      "- Custom tailor-made courses",
-      "- Content from learnables community",
-      "- Interactive gamified educational content",
-      "- Multi-lingual support (translated videos from khan academy)",
-      "- E-books",
-      "- A unique learning experience for a child that is interactive and fun",
-      "- Collaborations with organisations such as the Pakistan Skills Development Fund",
-      "- Live Virtual Classes",
-      "- Opportunities for Educators including lesson plans, teaching guides, assessment tools, and online courses"
-    ] 
+    subtitle: `- Free access to paid certifications
+    - Custom tailor-made courses 
+    - Content from learnables community
+    - Interactive gamified educational content
+    - Multi-lingual support (translated videos from khan academy)
+    - E-books
+    - A unique learning experience for a child that is interactive and fun
+    - Collaborations with organisations such as the Pakistan Skills Development Fund
+    - Live Virtual Classes
+    - Opportunities for Educators including lesson plans, teaching guides, assessment tools, and online courses` 
   },
   {
     imgUrl: headset,
