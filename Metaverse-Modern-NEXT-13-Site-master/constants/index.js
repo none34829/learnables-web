@@ -53,6 +53,30 @@ export const newFeatures = [
     title: "More realistic",
     subtitle:
       "In the latest update, your eyes are narrow, making the world more realistic than ever", 
+  },
+  {
+    imgUrl: headset,
+    title: "More realistic",
+    subtitle:
+      "In the latest update, your eyes are narrow, making the world more realistic than ever", 
+  },
+  {
+    imgUrl: headset,
+    title: "More realistic",
+    subtitle:
+      "In the latest update, your eyes are narrow, making the world more realistic than ever", 
+  },
+  {
+    imgUrl: headset,
+    title: "More realistic",
+    subtitle:
+      "In the latest update, your eyes are narrow, making the world more realistic than ever", 
+  },
+  {
+    imgUrl: headset,
+    title: "More realistic",
+    subtitle:
+      "In the latest update, your eyes are narrow, making the world more realistic than ever", 
   }
 ];
 
