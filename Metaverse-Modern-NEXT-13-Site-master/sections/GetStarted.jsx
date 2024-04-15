@@ -6,7 +6,7 @@ import styles from "../styles";
 import { fadeIn, staggerContainer, planetVariants } from "../utils/motion";
 import { TypingText, TitleText, StartSteps } from "../components";
 import { startingFeatures } from "../constants";
-import getStarted from "../public/get-started.png";
+import getStarted from "../public/get-started.mp4";
 
 const GetStarted = () => (
   <section className={`${styles.paddings} relative z-10`}>
